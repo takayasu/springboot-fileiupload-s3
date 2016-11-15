@@ -1,0 +1,30 @@
+.dropstyle {
+  width:300px; height:150px; padding:10px; border:1px; border-style: dashed;
+}
+
+.thumbnail{
+  width:200px; padding:10px;
+}
+
+.modal-overlay {
+    z-index:1;
+    display:none; 
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh; 
+    background-color:rgba(0,0,0,0.75);
+}
+    
+ .modal-content {
+    position:fixed;
+    display:none;
+    z-index:2;
+    margin:10px;
+    padding:15px;
+    border-radius:20px;
+ 
+    background:#fff;
+}
+   

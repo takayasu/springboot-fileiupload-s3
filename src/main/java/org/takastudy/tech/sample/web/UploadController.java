@@ -17,7 +17,7 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 @RestController
 public class UploadController {
 	
-	private static final String BUCKET_NAME = "yourbucket";
+	private static final String BUCKET_NAME = "cloud-btc";
 	private static final String KEY_DIR = "org_images/";
 	private static final String TMP_FILE = "C:/tmp";
 	
